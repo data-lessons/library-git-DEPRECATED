@@ -182,7 +182,7 @@ We can see the changes we have made.
 3. The third and fourth lines once again show the name of the file being  changed.
 4. The remaining lines are the most interesting, they show us the actual differences and the lines on which they occur. In particular, the + markers in the first column show where we have added lines.
 
-We can now commmit these changes again 
+We can now commit these changes again 
 ~~~
 $ git add git_test.txt
 $ git commit -m 'second line of changes'
