@@ -252,8 +252,14 @@ Git cheat sheet handouts
 
 ---
 ### Hour Two
-- Collaborating in groups to build a Github Pages site: who they are, what they think they could use GitHub for **setup a template for use beforehand?**
-- *Lesson based on Software Carpentry, [Version Control with Git](https://github.com/swcarpentry/git-novice) ([Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)). To be worked on by [@davanstrien](https://github.com/davanstrien)*
+* First 20 minutes or so - reinforcing how git works. 
+* Draw diagrams of things covered so far
+* express language in 'non git' way. 
+
+* Build on first hour and make pull requests to a github pages site. @davanstrien Setup before hand. site will link to some repositories useful for librarians/dh. 
+* examples of collobarative working on github links
+* forking a github page. 
+
 
 ## Github Pages
 
