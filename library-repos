@@ -1,0 +1,7 @@
+# Useful Library github repos
+
+* 'Python script for converting MARC21 files to a saner format (CSV), originally designed for the Harvard Libraries MARC21 records'
+[DavidChouinard/mrc_to_csv](https://github.com/DavidChouinard/mrc_to_csv)
+
+process MARC records from Python http://python.org/pypi/pymarc
+https://github.com/edsu/pymarc
