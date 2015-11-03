@@ -260,6 +260,10 @@ Git cheat sheet handouts
 * examples of collobarative working on github links
 * forking a github page. 
 
+## Lets review 
+
+It is likely that not e
+
 
 ## Github Pages
 
@@ -272,6 +276,7 @@ Github pages allow you to version control your website. This is useful for a lot
 Github pages also mean that you can collaborate on a website with a lot of people without everyone having to communicate back and forwards about what changes need to be made, or have been made already. You can create 'issues' (things that need fixing), list things to do in the future and allow other people visiting your website to quickly suggest, and help implement changes through pull requests. 
 
 ### Setting up a Github page 
+Now we're all persuaded of how awesome Github pages are (or you've identfied some fatal flaws in my reasoning) it would be useful to try playing around with some things we can do with Github pages. This will help us cement what we have learned in the previous hour and may help spark discussion for the last section of this session.
 
 Suggestion for second hour. 
 Use github page generator to set up a github page site.
