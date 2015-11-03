@@ -253,8 +253,8 @@ Git cheat sheet handouts
 ---
 ### Hour Two
 * First 20 minutes or so - reinforcing how git works. 
-* Draw diagrams of things covered so far
-* express language in 'non git' way. 
+  - Draw diagrams of things covered so far
+  - express language in 'non git' way. 
 
 * Build on first hour and make pull requests to a github pages site. @davanstrien Setup before hand. site will link to some repositories useful for librarians/dh. 
 * examples of collobarative working on github links
@@ -262,8 +262,13 @@ Git cheat sheet handouts
 
 ## Lets review 
 
-It is likely that not e
+It is likely that some things won't have stuck from the last hour. To try and reinforce how things work we can work in groups to develop diagrams to illustrate Git functions and language. This should make carrying out more complicated aspects of Git clearer in our heads. 
 
+In groups:
+
+* illustrate the concepts discussed in the first hour
+* try and 'draw' what different commands mean
+* try and come up with synonyms for what the commands are doing. 
 
 ## Github Pages
 
