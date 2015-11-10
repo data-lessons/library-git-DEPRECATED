@@ -36,7 +36,7 @@ One of the main barriers to getting started with git is the language. Although s
 
 **Repository** A repository is the place where are projects and associated changes are stored. Repositories can contain one single readme file or hundreds of different folders making up the source code for extensive projects. We can create repositories in a number of different ways; we can make our own from scratch, we can fork (copy) an existing repository or we can create a git repository from an existing folder we have been working on. 
 
-**Init** Create a repository 
+**init** Create a repository 
 
 Whenever we use Git on the commnand line we begin our command with Git. This is so the computer knows we are trying to get Git to do something rather than another programme. 
 
@@ -88,7 +88,7 @@ To change this and to tell git we want to track changes we make to git_test.txt 
 ~~~ 
 $ git add git_test.txt
 ~~~
-This adds our txt file to the **staging area** (the area where git checks for file changes). Because we can't see that this has happened we might want to use **git status** again.
+This adds our txt file to the **staging area** (the area where git checks for file changes). Because we can't see that this has happened we might want to use **`git status`** again.
 ~~~
 $ git status
 On branch master
