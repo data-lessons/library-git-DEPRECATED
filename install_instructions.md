@@ -1,4 +1,4 @@
-~ Install for week three
+# Install for week three
 
 ## Setup a GitHub account
 If you don't already have a GitHub account set one up here: [https://github.com/](https://github.com/)
