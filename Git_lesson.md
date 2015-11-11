@@ -294,13 +294,13 @@ Use github page generator to set up a github page site.
 
 ### Hour Three
 - Reflecting on what GitHub could be used for in local library setting. Free time to exploring more Software Carpentry lessons and adapting forked repo with suggestions for future Library Carpentry
+- Helping each other out. 
 
 user contribution to collections?
 - editing of resources?
 - crowd sourcing - could be an issue?
 - making pull requests. 
 - open access journals 
-
 
 
 ### Install for Week Four
