@@ -2,6 +2,19 @@
 
 **Notes: set up website before hand**
 
+### Intro 
+
+#### what we will try and do 
+**begin** to understand and use Git/Github. You will not be an expert by the end of the evening. You will probably not even feel very comfortable using Git. This is okay. We want to make a start but like any skill using Git takes practice. 
+
+#### be excellent to each other
+* If you spot someone that is struggling with something and you think you know how to help give them a hand. Try not to do it for them but explain the steps they need to take and *what* these steps are doing. 
+
+#### be patient with me and yourself
+* This is a big group, with different levels of knowledge, different computer systems. 
+* This isn't my full-time job (though if someone wants to pay me to play with computers all day I'd probably accept). I'll do my best to make this session useful. 
+* This is your session. If you feel we are going to fast then let me know. We can decide as a group what to cover. 
+
 
 ### Hour One
 - What is Git. What is GitHub. Basic language. Doing the basics.
