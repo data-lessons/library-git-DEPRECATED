@@ -2,6 +2,19 @@
 
 **Notes: set up website before hand**
 
+### Intro 
+
+#### what we will try and do 
+**begin** to understand and use Git/Github. You will not be an expert by the end of the evening. You will probably not even feel very comfortable using Git. This is okay. We want to make a start but like any skill using Git takes practice. 
+
+#### be excellent to each other
+* If you spot someone that is struggling with something and you think you know how to help give them a hand. Try not to do it for them but explain the steps they need to take and *what* these steps are doing. 
+
+#### be patient with me and yourself
+* This is a big group, with different levels of knowledge, different computer systems. 
+* This isn't my full-time job (though if someone wants to pay me to play with computers all day I'd probably accept). I'll do my best to make this session useful. 
+* This is your session. If you feel we are going to fast then let me know. We can decide as a group what to cover. 
+
 
 ### Hour One
 - What is Git. What is GitHub. Basic language. Doin g the basics.
@@ -36,7 +49,7 @@ One of the main barriers to getting started with git is the language. Although s
 
 **Repository** A repository is the place where are projects and associated changes are stored. Repositories can contain one single readme file or hundreds of different folders making up the source code for extensive projects. We can create repositories in a number of different ways; we can make our own from scratch, we can fork (copy) an existing repository or we can create a git repository from an existing folder we have been working on. 
 
-**Init** Create a repository 
+**init** Create a repository 
 
 Whenever we use Git on the commnand line we begin our command with Git. This is so the computer knows we are trying to get Git to do something rather than another programme. 
 
@@ -88,7 +101,7 @@ To change this and to tell git we want to track changes we make to git_test.txt 
 ~~~ 
 $ git add git_test.txt
 ~~~
-This adds our txt file to the **staging area** (the area where git checks for file changes). Because we can't see that this has happened we might want to use **git status** again.
+This adds our txt file to the **staging area** (the area where git checks for file changes). Because we can't see that this has happened we might want to use **`git status`** again.
 ~~~
 $ git status
 On branch master
@@ -252,8 +265,23 @@ Git cheat sheet handouts
 
 ---
 ### Hour Two
-- Collaborating in groups to build a Github Pages site: who they are, what they think they could use GitHub for **setup a template for use beforehand?**
-- *Lesson based on Software Carpentry, [Version Control with Git](https://github.com/swcarpentry/git-novice) ([Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)). To be worked on by [@davanstrien](https://github.com/davanstrien)*
+* First 20 minutes or so - reinforcing how git works. 
+  - Draw diagrams of things covered so far
+  - express language in 'non git' way. 
+
+* Build on first hour and make pull requests to a github pages site. @davanstrien Setup before hand. site will link to some repositories useful for librarians/dh. 
+* examples of collobarative working on github links
+* forking a github page. 
+
+## Lets review 
+
+It is likely that some things won't have stuck from the last hour. To try and reinforce how things work we can work in groups to develop diagrams to illustrate Git functions and language. This should make carrying out more complicated aspects of Git clearer in our heads. 
+
+In groups:
+
+* illustrate the concepts discussed in the first hour
+* try and 'draw' what different commands mean
+* try and come up with synonyms for what the commands are doing. 
 
 ## Github Pages
 
@@ -266,6 +294,7 @@ Github pages allow you to version control your website. This is useful for a lot
 Github pages also mean that you can collaborate on a website with a lot of people without everyone having to communicate back and forwards about what changes need to be made, or have been made already. You can create 'issues' (things that need fixing), list things to do in the future and allow other people visiting your website to quickly suggest, and help implement changes through pull requests. 
 
 ### Setting up a Github page 
+Now we're all persuaded of how awesome Github pages are (or you've identfied some fatal flaws in my reasoning) it would be useful to try playing around with some things we can do with Github pages. This will help us cement what we have learned in the previous hour and may help spark discussion for the last section of this session.
 
 Suggestion for second hour. 
 Use github page generator to set up a github page site.
@@ -278,13 +307,13 @@ Use github page generator to set up a github page site.
 
 ### Hour Three
 - Reflecting on what GitHub could be used for in local library setting. Free time to exploring more Software Carpentry lessons and adapting forked repo with suggestions for future Library Carpentry
+- Helping each other out. 
 
 user contribution to collections?
 - editing of resources?
 - crowd sourcing - could be an issue?
 - making pull requests. 
 - open access journals 
-
 
 
 ### Install for Week Four
