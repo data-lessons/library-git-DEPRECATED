@@ -4,7 +4,7 @@
 
 
 ### Hour One
-- What is Git. What is GitHub. Basic language. Doing the basics.
+- What is Git. What is GitHub. Basic language. Doin g the basics.
 - *Lesson based on Software Carpentry, [Version Control with Git](https://github.com/swcarpentry/git-novice) ([Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/))*
 - the problem? loose changes, collaboration, different versions?
 - solution: Version control?
