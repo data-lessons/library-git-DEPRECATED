@@ -26,7 +26,7 @@
 
 Git is a 'free and open source distributed version control system'. We probably know what free and open source means but we might be less sure about what a 'distributed version control system is'. One way to understand what Git and version control systems do is to look at the types of problems they are built to address. 
 
-![PhD comics](http://www.phdcomics.com/comics/archive/phd101212s.gif)
+<![PhD comics](http://www.phdcomics.com/comics/archive/phd101212s.gif)>
 
 Many of us will have had an experience similar to this. We are working on an important piece of work and we attempt to maintain multiple version of this document in different stages of completeness. 
 
@@ -94,6 +94,7 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 ~~~
+
 This status is git telling us that it has noticed a new file in our directory that we currently aren't tracking. 
 
 To change this and to tell git we want to track changes we make to git_test.txt we can use **git add**
@@ -101,7 +102,9 @@ To change this and to tell git we want to track changes we make to git_test.txt 
 ~~~ 
 $ git add git_test.txt
 ~~~
+
 This adds our txt file to the **staging area** (the area where git checks for file changes). Because we can't see that this has happened we might want to use **`git status`** again.
+
 ~~~
 $ git status
 On branch master
@@ -117,10 +120,13 @@ Changes to be committed:
 We can see that the file has changed colour and git also tells us that it has got a new file. 
 
 Lets make some changes to this file before we commit
+
 ~~~
 $ open git_test.txt
 ~~~
+
 We should now be able to add some text to our text file. For now lets just write 'hello world'. If we try **git status** again. We should get the following message
+
 ~~~
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -128,17 +134,22 @@ Changes not staged for commit:
 
     modified:   git_test.txt
 ~~~
+
 This lets us know that Git has spotted changes to our txt file but that it hasn't yet 'staged them'. This means git won't currently record the changes we made. We can add the file to the staging area again
+
 ~~~ 
 git add git_test.txt
 ~~~
+
 We can now **commit** our first changes. Commit is similar to 'saving' a file to git. However compared to saving a lot more information about the changes we made is recorded and visible to us later. 
+
 ~~~
 git commit -m 'hello world'
 [master (root-commit) 27c3f19] hello world
  1 file changed, 1 insertion(+)
  create mode 100644 git_test.txt
 ~~~
+
 We can see that one file changed and we made one insertion which was our 'hello world'. We have now recorded our changes and we can later go back and see when we made changes to our file and decided to add 'hello world'. We do have a problem know though. At the moment our changes are only recorded on our computer. At the moment if we wanted to work with someone else they would have no way of seeing what we've done. Lets fix that. Lets jump to the github website where we could decide to host some of work. Hosting here will allow us to share our work with friend and collegues but also allow other people to use or build on our work.
 
 ***
@@ -173,6 +184,7 @@ This is letting us know where we are working (the master branch). We can also se
 
 We can use **git diff** to see changes we have made before making a commit. 
 Lets add another line to our text file. 
+
 ~~~
 $ open git_test.txt
 $ git diff
@@ -196,6 +208,7 @@ We can see the changes we have made.
 4. The remaining lines are the most interesting, they show us the actual differences and the lines on which they occur. In particular, the + markers in the first column show where we have added lines.
 
 We can now commmit these changes again 
+
 ~~~
 $ git add git_test.txt
 $ git commit -m 'second line of changes'
@@ -235,6 +248,7 @@ $ git push
 now if we go back to our github repo we can see all our changes. Lets add an extra line of text and commit these changes. When we commit changes on github itself we don't have to push these. 
 
 Now lets get the third line onto our computer. 
+
 ~~~
 $ git pull 
 remote: Counting objects: 3, done.
@@ -250,9 +264,11 @@ Fast-forward
 ~~~
 
 If we open our text file again 
+
 ~~~
 $ open git_test.txt
 ~~~
+
 we can see our new lines. 
 
 When we begin collobarating on more complex projects we may have to consider more aspects of git functionality but this should be a good start. In the second hour we can look more closely at collobarating and using github pages. 
