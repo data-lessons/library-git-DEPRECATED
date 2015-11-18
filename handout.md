@@ -58,8 +58,8 @@ ______
 
 **`git pull`**: Merges upstream changes into your local repository 
 
-**`git remote add origin`**: add a repository where changes will be stored
-    - We will use `git remote add origin <https://github.com/user/repo.git>`
+**`git remote add origin`**: add a repository where changes will be stored -
+
 ---
 
 ### Exercise our first git repository
