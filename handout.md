@@ -80,7 +80,7 @@ If you want to practice more feel free to keep practicising making changes to yo
 To practice using Git, Github pages and Markdown we can contribute to a Github pages site. This page is currently very bare but we can change that by making some pull requests and suggesting changes.
 
 #### pull-request (slightly easier way)
-1. Navigate to the <!insert> repo. 
+1. Navigate to the https://github.com/davanstrien/week-three-library-carpentry
 2. Click on 'fork' repository. You will then be asked to choose where to 'fork' your repository. 
 3. Once we have our own fork we can edit files directly from the github site. This is a good chance to practice some markdown syntax. You can preview how it will look before you commit changes.NB this is 'github' flavour of markdown, there are slight differences between different 'flavours'. 
 4. Once we have done this we can commit our changes. 
