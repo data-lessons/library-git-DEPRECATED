@@ -57,7 +57,7 @@ One of the main barriers to getting started with Git is the language. Although s
 
 **init** Create a repository 
 
-Whenever we use Git on the commnand line we begin our command with Git. This is so the computer knows we are trying to get Git to do something rather than another program. 
+Whenever we use Git on the command line, we need to preface our command with Git. This is so the computer knows we are trying to get Git to do something rather than another program. 
 
 To try out some of the Git commands, we can make a repository for today's session. We can either delete this directory later or keep it as a place to test out new Git commands.
 
