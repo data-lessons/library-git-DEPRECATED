@@ -4,7 +4,7 @@
 
 ### Self-reporting
 
-(James) In addition to the skill level self-reporting you've been doing, now we've hit the half way point of Library Carpentry we'd like to know if you are feeling able to articulate ways in which what we've learnt thus far could be used in your daily practice. So for the next two minutes, please write *briefly* on a sticky note a scenario in which you imagine - that is, not necessarily right now but with a little practice - you or your team will be able to use what you've learnt thus far at work, in your libraries. And if you can't see an application, then tell us that!
+In addition to the skill level self-reporting you've been doing, now we've hit the half way point of Library Carpentry we'd like to know if you are feeling able to articulate ways in which what we've learnt thus far could be used in your daily practice. So for the next two minutes, please write *briefly* on a sticky note a scenario in which you imagine - that is, not necessarily right now but with a little practice - you or your team will be able to use what you've learnt thus far at work, in your libraries. And if you can't see an application, then tell us that!
 
 ### Intro 
 
@@ -42,12 +42,12 @@ This method came about to help software developers work collaboratively on codin
 
 When we make 'commits', we record a range of metadata about that change. As librarians, we might already be inclined to think creating metadata is useful but an example of what information is recorded will illustrate why the information recorded by version control systems in particular is useful. 'Commits' record the time and date a commit was made. Although we can often see information about when we last edited or saved say, a Word document, this only shows us the most recent changes. When we make commits, we can record a message explaining what changes we have made. This makes it especially useful for collaborating. Rather than sending an email with a document with track changes and some comments, we can include all that information with the document itself. This makes it easy to get an overview of changes that have been made to a document by looking at a log of all the changes that have been made. 
 
-### Git vs. Github vs. Gitlab
+### Git vs. GitHub vs. Gitlab
 
-We often hear the terms Git and Github used interchangeably but the are slightly different things. Git refers to the software and principles used for a particular flavour of version control (there are other systems like mercurial and SVN). Github is a popular site which hosts git repositories. The majority of the content that Github hosts is open source software though increasingly it is being used for other projects such as open access journals and constantly updated text books. Github is a great place to learn how to use Git but once you have learned the ideas and processes behind github you can used Git on other storage systems or host repositories on your own server if you wanted to keep code private or you wanted to encrypt your repository. 
+We often hear the terms Git and GitHub used interchangeably but they are slightly different things. Git refers to the software and principles used for a particular flavour of version control (there are other systems such as Mercurial and SVN). GitHub is a popular site which hosts git repositories. The majority of the content that GitHub hosts is open source software, though increasingly it is being used for other projects such as open access journals and constantly updated text books. GitHub is a great place to learn how to use Git but once you have learned the ideas and processes behind GitHub you can use Git on other storage systems. You can even host repositories on your own server if you want to keep your files private or if you wanted to encrypt your repository. You can get private repositories on GitHub for a fee.
 
 ### Using Git 
-One of the main barriers to getting started with git is the language. Although some of the language used in Git is fairly self explanatory other terms are not so clear. The best way to get to learn Git language is to begin using it but having an overview of the language and way Git is used will provide a good starting point. 
+One of the main barriers to getting started with Git is the language. Although some of the language used in Git is fairly self explanatory, other terms are not so clear. The best way to get to learn Git language is by using it but having an overview of the language and the way Git is used will provide a good starting point. 
 
 <!demonstrate git commands whilst outlining what they mean>
 
@@ -57,9 +57,9 @@ One of the main barriers to getting started with git is the language. Although s
 
 **init** Create a repository 
 
-Whenever we use Git on the commnand line we begin our command with Git. This is so the computer knows we are trying to get Git to do something rather than another programme. 
+Whenever we use Git on the commnand line we begin our command with Git. This is so the computer knows we are trying to get Git to do something rather than another program. 
 
-To try out some of the git commands we can make a repository for todays session. We can either delete this directory later or keep it as a place to test out new git commands.
+To try out some of the Git commands, we can make a repository for today's session. We can either delete this directory later or keep it as a place to test out new Git commands.
 
 We covered the command line last week but we will go over them again. <!explain commands as we go along>
 
@@ -80,14 +80,14 @@ $ nothing to commit (create/copy files and use "git add" to track)
 ~~~
 
 This is telling us that we are on the master branch (more on this later) and that we have nothing to commit (nothing to save changes from). 
-If we use list directory we can see currently we don't have any files to track. Lets change that an add a txt file. 
+If we use list directory we can see currently we don't have any files to track. Let's change that by adding a txt file. Touch allows us to create an empty file.
 
 ~~~ 
 $ ls 
 $ touch git_test.txt
 ~~~
 
-We now have a txt file. If we try git status again we will get the following
+We now have a txt file. If we try git status again, we will get the following
 
 ~~~
 $ git status
@@ -101,15 +101,15 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 ~~~
 
-This status is git telling us that it has noticed a new file in our directory that we currently aren't tracking. 
+This status is Git telling us that it has noticed a new file in our directory that we currently aren't tracking. 
 
-To change this and to tell git we want to track changes we make to git_test.txt we can use **git add**
+To change this, and to tell Git we want to track any changes we make to git_test.txt, we use **git add**
 
 ~~~ 
 $ git add git_test.txt
 ~~~
 
-This adds our txt file to the **staging area** (the area where git checks for file changes). Because we can't see that this has happened we might want to use **`git status`** again.
+This adds our txt file to the **staging area** (the area where git checks for file changes). Because we are not alerted that this has happened, we might want to use **`git status`** again.
 
 ~~~
 $ git status
@@ -123,15 +123,15 @@ Changes to be committed:
     new file:   git_test.txt
 ~~~
 
-We can see that the file has changed colour and git also tells us that it has got a new file. 
+We can see that the file has changed colour (generally from red to green) and Git also tells us that it has got a new file. 
 
-Lets make some changes to this file before we commit
+Let's make some changes to this file before we commit it:
 
 ~~~
-$ open git_test.txt
+$ nano git_test.txt
 ~~~
 
-We should now be able to add some text to our text file. For now lets just write 'hello world'. If we try **git status** again. We should get the following message
+We should now be able to add some text to our text file. For now let's just write 'hello world'. If we try **git status** again. We should get the following message
 
 ~~~
 Changes not staged for commit:
@@ -141,13 +141,13 @@ Changes not staged for commit:
     modified:   git_test.txt
 ~~~
 
-This lets us know that Git has spotted changes to our txt file but that it hasn't yet 'staged them'. This means git won't currently record the changes we made. We can add the file to the staging area again
+This lets us know that Git has spotted changes to our txt file but that it hasn't yet 'staged' them. This means Git won't currently record the changes we made. We can add the file to the staging area again
 
 ~~~ 
 git add git_test.txt
 ~~~
 
-We can now **commit** our first changes. Commit is similar to 'saving' a file to git. However compared to saving a lot more information about the changes we made is recorded and visible to us later. 
+We can now **commit** our first changes. Commit is similar to 'saving' a file to Git. However compared to saving, a lot more information about the changes we made is recorded and visible to us later. 
 
 ~~~
 git commit -m 'hello world'
@@ -156,11 +156,11 @@ git commit -m 'hello world'
  create mode 100644 git_test.txt
 ~~~
 
-We can see that one file changed and we made one insertion which was our 'hello world'. We have now recorded our changes and we can later go back and see when we made changes to our file and decided to add 'hello world'. We do have a problem know though. At the moment our changes are only recorded on our computer. At the moment if we wanted to work with someone else they would have no way of seeing what we've done. Lets fix that. Lets jump to the github website where we could decide to host some of work. Hosting here will allow us to share our work with friend and collegues but also allow other people to use or build on our work.
+We can see that one file changed and we made one insertion which was our 'hello world'. We have now recorded our changes and we can later go back and see when we made changes to our file and decided to add 'hello world'. We do have a problem know though. At the moment our changes are only recorded on our computer. At the moment, if we wanted to work with someone else, they would have no way of seeing what we've done. Let's fix that. Let's jump to the GitHub website where we could decide to host some of work. Hosting here will allow us to share our work with our friend and collegues but will also allow other people to use or build on our work.
 
 ***
 
-When we have logged in to github we will see an option to create a new repository. Lets make one for the github experiments we are going to do today. 
+When we have logged in to GitHub, we will see an option to create a new repository. Let's make one for the GitHub experiments we are going to do today. 
 
 * new repository 
 * give it a name
@@ -171,14 +171,14 @@ once we have made our repository we still need to link the repository we have on
 $ git remote add origin <name of your repo.git>
 ~~~
 
-This will add a repository on github for our changes to be commited to. 
+This will add a repository on github for our changes to be committed to. 
 ~~~
 $ git push -u origin master
 ~~~
 
 **git push** will add changes to our repository. The name of our remote is origin and the default local branch name is master. The -u tells Git to remember the parameters, so that next time we can simply run git push and Git will know what to do. Go ahead and push it!
 
-When we type this command we will see git 'pushing' changes to github. Because our file is very small this won't take long but if we have made a lot of changes or are adding a very large repository we may have to wait a little longer. 
+When we type this command, we will see Git 'pushing' changes to github. Because our file is very small, this won't take long but if we had made a lot of changes or are adding a very large repository we might have to wait a little longer. 
 We can get to see where we're at with **git status**
 ~~~
 On branch master
@@ -189,7 +189,7 @@ nothing to commit, working directory clean
 This is letting us know where we are working (the master branch). We can also see that we have no changes to commit and everything is in order. 
 
 We can use **git diff** to see changes we have made before making a commit. 
-Lets add another line to our text file. 
+Let's add another line to our text file. 
 
 ~~~
 $ open git_test.txt
@@ -210,8 +210,8 @@ We can see the changes we have made.
 
 1. The first line tells us that Git is producing output similar to the Unix diff command comparing the old and new versions of the file.
 2. The second line tells exactly which versions of the file Git is comparing; df0654a and 315bf3a are unique computer-generated labels for those versions.
-3. The third and fourth lines once again show the name of the file being  changed.
-4. The remaining lines are the most interesting, they show us the actual differences and the lines on which they occur. In particular, the + markers in the first column show where we have added lines.
+3. The third and fourth lines once again show the name of the file being changed.
+4. The remaining lines are the most interesting; they show us the actual differences and the lines on which they occur. In particular, the + markers in the first column show where we have added lines.
 
 We can now commmit these changes again 
 
@@ -237,23 +237,23 @@ Date:   Sun Oct 18 13:27:31 2015 +0100
     hello world
 ~~~
 
-This shows us the two commits we have made and shows the messages we wrote. It is important that we try and use meangiful commit messages when we make changes. This is especially important when we are working with other people who might not be able to guess as easily what our short cryptic messages might refer too. 
+This shows us the two commits we have made and shows the messages we wrote. It is important that we try to use meangiful commit messages when we make changes. This is especially important when we are working with other people who might not be able to guess as easily what our short cryptic messages might refer too. 
 
-We might get a lit bit lonely working away on our own and want to work with other people. Before we get to that it is worth learning one more command. **git pull**
+We might get a lit bit lonely working away on our own and want to work with other people. Before we get to that, it is worth learning one more command. **git pull**
 
-We can try and see how this works by making changes on the github website and then 'pulling' them onto our computer. 
+We can try to see how this works by making changes on the GitHub website and then 'pulling' them on to our computer. 
 
-Lets go to our respository. We can see our txt file and make changes. However, you may have noticed only our first change is there. This is because we didn't push our last commit yet. This might seem like a mistake in design but it is often useful to make a lot of commits for small changes so you are able to make careful revisions later and you don't necessarily want to push all these changes one by one. 
+Let's go to our respository. We can see our txt file and make changes. However, you may have noticed only our first change is there. This is because we didn't push our last commit yet. This might seem like a mistake in design but it is often useful to make a lot of commits for small changes so you are able to make careful revisions later and you don't necessarily want to push all these changes one by one. 
 
-Lets go back and push our changes
+Let's go back and push our changes
 
 ~~~ 
 $ git push
 ~~~
 
-now if we go back to our github repo we can see all our changes. Lets add an extra line of text and commit these changes. When we commit changes on github itself we don't have to push these. 
+now if we go back to our github repo we can see all our changes. Let's add an extra line of text and commit these changes. When we commit changes on GitHub itself we don't have to push these. 
 
-Now lets get the third line onto our computer. 
+Now let's get the third line on to our computer. 
 
 ~~~
 $ git pull 
@@ -277,7 +277,7 @@ $ open git_test.txt
 
 we can see our new lines. 
 
-When we begin collobarating on more complex projects we may have to consider more aspects of git functionality but this should be a good start. In the second hour we can look more closely at collobarating and using github pages. 
+When we begin collaborating on more complex projects, we may have to consider more aspects of git functionality, but this should be a good start. In the second hour we can look more closely at collaborrating and using GitHub pages. 
 
 ---
 
