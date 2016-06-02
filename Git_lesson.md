@@ -165,7 +165,8 @@ When we have logged in to GitHub, we will see an option to create a new reposito
 * new repository 
 * give it a name
 
-once we have made our repository we still need to link the repository we have on our computer and the one we've just made. 
+Github will ask you to create README.md and add a license. Do not do it for now.
+Once we have made our repository we still need to link the repository we have on our computer and the one we've just made. 
 
 ~~~
 $ git remote add origin <name of your repo.git>
