@@ -44,10 +44,10 @@ When we make 'commits', we record a range of metadata about that change. As libr
 
 ### Git vs. GitHub vs. Gitlab
 
-We often hear the terms Git and GitHub used interchangeably but they are slightly different things. Git refers to the software and principles used for a particular flavour of version control system, also called VCS in short (there are other systems such as Mercurial and SVN). GitHub is a popular site which hosts git repositories. The majority of the content that GitHub hosts is open source software, though increasingly it is being used for other projects such as open access journals and constantly updated text books. GitHub is a great place to learn how to use Git but once you have learned the ideas and processes behind GitHub you can use Git on other storage systems. You can even host repositories on your own server if you want to keep your files private or if you wanted to encrypt your repository. You can get private repositories on GitHub for a fee. Gitlab is an opensource git repository management and hosting software. You can host it on your own server and configure with unlimited private repositories.
+We often hear the terms Git and GitHub used interchangeably but they are slightly different things. Git refers to the software and principles used for a particular flavour of version control system, also called VCS in short (there are other systems such as Mercurial and SVN). GitHub is a popular site which hosts git repositories. The majority of the content that GitHub hosts is open source software, though increasingly it is being used for other projects such as open access journals and constantly updated text books. GitHub is a great place to learn how to use Git but once you have learned the ideas and processes behind GitHub you can use Git on other storage systems. You can even host repositories on your own server if you want to keep your files private or if you wanted to encrypt your repository. You can get private repositories on GitHub for a fee. Gitlab is an open source git repository management and hosting software. You can host it on your own server and configure with unlimited private repositories.
 
 ### Using Git 
-One of the main barriers to getting started with Git is the language. Although some of the language used in Git is fairly self explanatory, other terms are not so clear. The best way to get to learn Git language is by using it but having an overview of the language and the way Git is used will provide a good starting point. 
+One of the main barriers to getting started with Git is the language. Although some of the language used in Git is fairly self-explanatory, other terms are not so clear. The best way to get to learn Git language is by using it but having an overview of the language and the way Git is used will provide a good starting point. 
 
 <!demonstrate git commands whilst outlining what they mean>
 
@@ -157,7 +157,7 @@ git commit -m 'hello world'
  create mode 100644 git_test.txt
 ~~~
 
-We can see that one file changed and we made one insertion which was our 'hello world'. We have now recorded our changes and we can later go back and see when we made changes to our file and decided to add 'hello world'. We do have a problem know though. At the moment our changes are only recorded on our computer. At the moment, if we wanted to work with someone else, they would have no way of seeing what we've done. Let's fix that. Let's jump to the GitHub website where we could decide to host some of work. Hosting here will allow us to share our work with our friend and collegues but will also allow other people to use or build on our work.
+We can see that one file changed and we made one insertion which was our 'hello world'. We have now recorded our changes and we can later go back and see when we made changes to our file and decided to add 'hello world'. We do have a problem now though. At the moment our changes are only recorded on our computer. At the moment, if we wanted to work with someone else, they would have no way of seeing what we've done. Let's fix that. Let's jump to the GitHub website where we could decide to host some of work. Hosting here will allow us to share our work with our friend and collegues but will also allow other people to use or build on our work.
 
 ***
 
@@ -215,7 +215,7 @@ We can see the changes we have made.
 3. The third and fourth lines once again show the name of the file being changed.
 4. The remaining lines are the most interesting; they show us the actual differences and the lines on which they occur. In particular, the + markers in the first column show where we have added lines.
 
-We can now commmit these changes again 
+We can now commit these changes again 
 
 ~~~
 $ git add git_test.txt
@@ -239,13 +239,13 @@ Date:   Sun Oct 18 13:27:31 2015 +0100
     hello world
 ~~~
 
-This shows us the two commits we have made and shows the messages we wrote. It is important that we try to use meangiful commit messages when we make changes. This is especially important when we are working with other people who might not be able to guess as easily what our short cryptic messages might refer too. 
+This shows us the two commits we have made and shows the messages we wrote. It is important that we try to use meaningful commit messages when we make changes. This is especially important when we are working with other people who might not be able to guess as easily what our short cryptic messages might refer too. 
 
 We might get a lit bit lonely working away on our own and want to work with other people. Before we get to that, it is worth learning one more command. **git pull**
 
 We can try to see how this works by making changes on the GitHub website and then 'pulling' them on to our computer. 
 
-Let's go to our respository. We can see our txt file and make changes. However, you may have noticed only our first change is there. This is because we didn't push our last commit yet. This might seem like a mistake in design but it is often useful to make a lot of commits for small changes so you are able to make careful revisions later and you don't necessarily want to push all these changes one by one. 
+Let's go to our repository. We can see our txt file and make changes. However, you may have noticed only our first change is there. This is because we didn't push our last commit yet. This might seem like a mistake in design but it is often useful to make a lot of commits for small changes so you are able to make careful revisions later and you don't necessarily want to push all these changes one by one. 
 
 Let's go back and push our changes
 
@@ -279,7 +279,7 @@ $ open git_test.txt
 
 we can see our new lines. 
 
-When we begin collaborating on more complex projects, we may have to consider more aspects of git functionality, but this should be a good start. In the second hour we can look more closely at collaborrating and using GitHub pages. 
+When we begin collaborating on more complex projects, we may have to consider more aspects of git functionality, but this should be a good start. In the second hour we can look more closely at collaborating and using GitHub pages. 
 
 ---
 
@@ -318,7 +318,7 @@ Github pages allow you to version control your website. This is useful for a lot
 Github pages also mean that you can collaborate on a website with a lot of people without everyone having to communicate back and forwards about what changes need to be made, or have been made already. You can create 'issues' (things that need fixing), list things to do in the future and allow other people visiting your website to quickly suggest, and help implement changes through pull requests. 
 
 ### Setting up a Github page 
-Now we're all persuaded of how awesome Github pages are (or you've identfied some fatal flaws in my reasoning) it would be useful to try playing around with some things we can do with Github pages. This will help us cement what we have learned in the previous hour and may help spark discussion for the last section of this session.
+Now we're all persuaded of how awesome Github pages are (or you've identified some fatal flaws in my reasoning) it would be useful to try playing around with some things we can do with Github pages. This will help us cement what we have learned in the previous hour and may help spark discussion for the last section of this session.
 
 Suggestion for second hour. 
 Use github page generator to set up a github page site.
