@@ -126,10 +126,11 @@ Changes to be committed:
 We can see that the file has changed colour (generally from red to green) and Git also tells us that it has got a new file. 
 
 Let's make some changes to this file before we commit it:
-
+If you are on Linux or Mac use nano.
 ~~~
 $ nano git_test.txt
 ~~~
+On Windows open the file in Notepad++.
 
 We should now be able to add some text to our text file. For now let's just write 'hello world'. If we try **git status** again. We should get the following message
 
