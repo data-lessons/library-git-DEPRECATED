@@ -1,6 +1,6 @@
 ## Library Carpentry. Module Three: Git
 
-**Notes: set up website before hand**
+**Notes: set up website beforehand**
 
 ### Self-reporting
 
@@ -299,25 +299,25 @@ Git cheat sheet handouts
 * examples of collobarative working on GitHub links
 * forking a GitHub page. 
 
-## Lets review 
+## Let's review 
 
-It is likely that some things won't have stuck from the last hour. To try and reinforce how things work we can work in groups to develop diagrams to illustrate Git functions and language. This should make carrying out more complicated aspects of Git clearer in our heads. 
+It is likely that some things won't have stuck from the last hour. To try to reinforce how things work we can work in groups to develop diagrams to illustrate Git functions and language. This should make carrying out more complicated aspects of Git clearer in our heads. 
 
 In groups:
 
 * illustrate the concepts discussed in the first hour
-* try and 'draw' what different commands mean
-* try and come up with synonyms for what the commands are doing. 
+* try to 'draw' what different commands mean
+* try to come up with synonyms for what the commands are doing. 
 
 ## GitHub Pages
 
-GitHub Pages are websites hosted on GitHub. They allow you to build a repository that displays as a website. GitHub pages uses Jekyll, a 'blog aware static site generator' to turn a site of files and folders into a website.
+GitHub Pages are websites hosted on GitHub. They allow you to build a repository that displays as a website. GitHub pages uses Jekyll, a 'blog-aware static site generator' to turn a site of files and folders into a website.
 
 ### Why GitHub pages are awesome!
 
-GitHub pages allow you to version control your website. This is useful for a lot different reasons. It allows you to keep a record of what changes you have made. It allows people to reference your website at a particular point in time and (if you make you're source open) to see what it was like at that particular point in time. This is very useful for academic citations. Most people have had the experience of following up a reference to a website and either getting a 404 error or seeing something completely different. Although using version on your site doesn't guarantee this won't happen it does make it easier to manage old versions of your site. 
+GitHub pages allow you to version control your website. This is useful for a lot of different reasons. It allows you to keep a record of what changes you have made. It allows people to reference your website at a particular point in time and (if you make your source open) to see what it was like at that particular point in time. This is very useful for academic citations. Most people have had the experience of following up a reference to a website and either getting a 404 error or seeing something completely different. Although using versions on your site doesn't guarantee this won't happen, it does make it easier to manage old versions of your site. 
 
-GitHub pages also mean that you can collaborate on a website with a lot of people without everyone having to communicate back and forwards about what changes need to be made, or have been made already. You can create 'issues' (things that need fixing), list things to do in the future and allow other people visiting your website to quickly suggest, and help implement changes through pull requests. 
+GitHub pages also mean that you can collaborate on a website with a lot of people without everyone having to communicate endlessly back and forwards about what changes need to be made, or have been made already. You can create 'issues' (things that need discussing or fixing), list things to do in the future, and allow other people visiting your website to quickly suggest, and help implement changes through pull requests. 
 
 ### Setting up a GitHub page 
 Now we're all persuaded of how awesome GitHub pages are (or you've identified some fatal flaws in my reasoning) it would be useful to try playing around with some things we can do with GitHub pages. This will help us cement what we have learned in the previous hour and may help spark discussion for the last section of this session.
@@ -327,7 +327,7 @@ Use GitHub page generator to set up a GitHub page site.
 * clone repo (add instructions)
 * add other users (perhaps start with teams of two)
 * in Groups make sure everyone tries committing - pulling changes to their computer 
-* demonstrate how pull requests can be discussed. 
+* demonstrate how pull requests can be discussed 
 * guidelines handout 
 * step by step 
 
@@ -337,11 +337,11 @@ Use GitHub page generator to set up a GitHub page site.
 
 user contribution to collections?
 - editing of resources?
-- crowd sourcing - could be an issue?
+- crowdsourcing - could be an issue?
 - making pull requests. 
 - open access journals 
 
 
-### Install for Week Four
+### Install for Module Four
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 - [Open Refine 2.6](http://openrefine.org/download.html)
