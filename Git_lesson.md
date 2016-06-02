@@ -44,7 +44,7 @@ When we make 'commits', we record a range of metadata about that change. As libr
 
 ### Git vs. GitHub vs. Gitlab
 
-We often hear the terms Git and GitHub used interchangeably but they are slightly different things. Git refers to the software and principles used for a particular flavour of version control (there are other systems such as Mercurial and SVN). GitHub is a popular site which hosts git repositories. The majority of the content that GitHub hosts is open source software, though increasingly it is being used for other projects such as open access journals and constantly updated text books. GitHub is a great place to learn how to use Git but once you have learned the ideas and processes behind GitHub you can use Git on other storage systems. You can even host repositories on your own server if you want to keep your files private or if you wanted to encrypt your repository. You can get private repositories on GitHub for a fee.
+We often hear the terms Git and GitHub used interchangeably but they are slightly different things. Git refers to the software and principles used for a particular flavour of version control system, also called VCS in short (there are other systems such as Mercurial and SVN). GitHub is a popular site which hosts git repositories. The majority of the content that GitHub hosts is open source software, though increasingly it is being used for other projects such as open access journals and constantly updated text books. GitHub is a great place to learn how to use Git but once you have learned the ideas and processes behind GitHub you can use Git on other storage systems. You can even host repositories on your own server if you want to keep your files private or if you wanted to encrypt your repository. You can get private repositories on GitHub for a fee. Gitlab is an opensource git repository management and hosting software. You can host it on your own server and configure with unlimited private repositories.
 
 ### Using Git 
 One of the main barriers to getting started with Git is the language. Although some of the language used in Git is fairly self explanatory, other terms are not so clear. The best way to get to learn Git language is by using it but having an overview of the language and the way Git is used will provide a good starting point. 
@@ -156,7 +156,7 @@ git commit -m 'hello world'
  create mode 100644 git_test.txt
 ~~~
 
-We can see that one file changed and we made one insertion which was our 'hello world'. We have now recorded our changes and we can later go back and see when we made changes to our file and decided to add 'hello world'. We do have a problem now though. At the moment our changes are only recorded on our computer. At the moment, if we wanted to work with someone else, they would have no way of seeing what we've done. Let's fix that. Let's jump to the GitHub website where we could decide to host some of work. Hosting here will allow us to share our work with our friend and collegues but will also allow other people to use or build on our work.
+We can see that one file changed and we made one insertion which was our 'hello world'. We have now recorded our changes and we can later go back and see when we made changes to our file and decided to add 'hello world'. We do have a problem know though. At the moment our changes are only recorded on our computer. At the moment, if we wanted to work with someone else, they would have no way of seeing what we've done. Let's fix that. Let's jump to the GitHub website where we could decide to host some of work. Hosting here will allow us to share our work with our friend and collegues but will also allow other people to use or build on our work.
 
 ***
 
@@ -237,7 +237,7 @@ Date:   Sun Oct 18 13:27:31 2015 +0100
     hello world
 ~~~
 
-This shows us the two commits we have made and shows the messages we wrote. It is important that we try to use meaningful commit messages when we make changes. This is especially important when we are working with other people who might not be able to guess as easily what our short cryptic messages might refer too. 
+This shows us the two commits we have made and shows the messages we wrote. It is important that we try to use meangiful commit messages when we make changes. This is especially important when we are working with other people who might not be able to guess as easily what our short cryptic messages might refer too. 
 
 We might get a lit bit lonely working away on our own and want to work with other people. Before we get to that, it is worth learning one more command. **git pull**
 
