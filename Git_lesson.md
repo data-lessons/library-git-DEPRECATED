@@ -1,4 +1,4 @@
-## Library Carpentry. Week Three: Git
+## Library Carpentry. Module Three: Git
 
 **Notes: set up website before hand**
 
@@ -8,20 +8,20 @@
 
 ### Intro 
 
-#### what we will try and do 
-**begin** to understand and use Git/Github. You will not be an expert by the end of the evening. You will probably not even feel very comfortable using Git. This is okay. We want to make a start but like any skill using Git takes practice. 
+#### what we will try to do 
+**begin** to understand and use Git/Github. You will not be an expert by the end of the class. You will probably not even feel very comfortable using Git. This is okay. We want to make a start but, like any skill, using Git takes practice. 
 
 #### be excellent to each other
-* If you spot someone that is struggling with something and you think you know how to help give them a hand. Try not to do it for them but explain the steps they need to take and *what* these steps are doing. 
+* If you spot someone who is struggling with something and you think you know how to help, please give them a hand. Try not to do the task for them: instead explain the steps they need to take and *what* these steps will achieve. 
 
 #### be patient with me and yourself
 * This is a big group, with different levels of knowledge, different computer systems. 
 * This isn't my full-time job (though if someone wants to pay me to play with computers all day I'd probably accept). I'll do my best to make this session useful. 
-* This is your session. If you feel we are going to fast then let me know. We can decide as a group what to cover. 
+* This is your session. If you feel we are going too fast, then please put up a pink sticky. We can decide as a group what to cover. 
 
 
 ### Hour One
-- What is Git. What is GitHub. Basic language. Doin g the basics.
+- What is Git. What is GitHub. Basic language. Doing the basics.
 - *Lesson based on Software Carpentry, [Version Control with Git](https://github.com/swcarpentry/git-novice) ([Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/))*
 - the problem? loose changes, collaboration, different versions?
 - solution: Version control?
@@ -32,13 +32,15 @@ Git is a 'free and open source distributed version control system'. We probably 
 
 <![PhD comics](http://www.phdcomics.com/comics/archive/phd101212s.gif)>
 
-Many of us will have had an experience similar to this. We are working on an important piece of work and we attempt to maintain multiple version of this document in different stages of completeness. 
+Many of us will have had an experience similar to this. We are working on an important piece of work and we attempt to maintain multiple versions of this document, all at different stages of completeness. 
 
-Version control addresses this problem by recording the changes we make to a document as we proceed. Each of the 'commits' we make is recorded and we can go back across a document or a set of documents and look at what changes have been made. 
+Version control addresses this problem by recording the changes made to a file as we proceed. Each 'commit' we make is recorded and we can go back across a file or set of files and look at what changes have been made. 
 
-Version control allow us to take this one step further and not only record changes to a document one person is working on but allows multiple people to work on a document and record the changes they make. It is then possible to merge these multiple documents. This developed out of a need for groups writing code together to be able to work on coding projects together without having to wait for someone else to finish working on something or having to manually compare changes that are made. 
+Version control allow us to take this one step further. It not only records changes to a file one person is working on but allows multiple people to work on a file and record the changes *they* make. It is then possible to merge these multiple files into one. 
 
-When we make 'commits' we record a range of metadata about that change. As librarians we might already be inclined to think creating metadata is useful but an example of what information is recorded will illustrate why the information recorded by version control systems in particular is useful. 'Commits' record the time and date of when a commit was made. Although we can often see inforamtion about when we last edited or saved a document this only shows us the most recent changes. When we make commits we can record a message explaining what changes we have made. This makes it especially useful for collaborating. Rather than sending an email with a document with track changes and some comments, we can include all that information with the document itself. This makes it easy to get an overview of changes that have been made to a document by looking at a log of all the changes that have been made. 
+This method came about to help software developers work collaboratively on coding projects. With version control, groups did not have to wait for someone else to finish working, nor did they have compare changes manually (and laboriously). 
+
+When we make 'commits', we record a range of metadata about that change. As librarians, we might already be inclined to think creating metadata is useful but an example of what information is recorded will illustrate why the information recorded by version control systems in particular is useful. 'Commits' record the time and date a commit was made. Although we can often see information about when we last edited or saved say, a Word document, this only shows us the most recent changes. When we make commits, we can record a message explaining what changes we have made. This makes it especially useful for collaborating. Rather than sending an email with a document with track changes and some comments, we can include all that information with the document itself. This makes it easy to get an overview of changes that have been made to a document by looking at a log of all the changes that have been made. 
 
 ### Git vs. Github vs. Gitlab
 
