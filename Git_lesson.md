@@ -156,7 +156,7 @@ git commit -m 'hello world'
  create mode 100644 git_test.txt
 ~~~
 
-We can see that one file changed and we made one insertion which was our 'hello world'. We have now recorded our changes and we can later go back and see when we made changes to our file and decided to add 'hello world'. We do have a problem know though. At the moment our changes are only recorded on our computer. At the moment, if we wanted to work with someone else, they would have no way of seeing what we've done. Let's fix that. Let's jump to the GitHub website where we could decide to host some of work. Hosting here will allow us to share our work with our friend and collegues but will also allow other people to use or build on our work.
+We can see that one file changed and we made one insertion which was our 'hello world'. We have now recorded our changes and we can later go back and see when we made changes to our file and decided to add 'hello world'. We do have a problem now though. At the moment our changes are only recorded on our computer. At the moment, if we wanted to work with someone else, they would have no way of seeing what we've done. Let's fix that. Let's jump to the GitHub website where we could decide to host some of work. Hosting here will allow us to share our work with our friend and collegues but will also allow other people to use or build on our work.
 
 ***
 
@@ -237,7 +237,7 @@ Date:   Sun Oct 18 13:27:31 2015 +0100
     hello world
 ~~~
 
-This shows us the two commits we have made and shows the messages we wrote. It is important that we try to use meangiful commit messages when we make changes. This is especially important when we are working with other people who might not be able to guess as easily what our short cryptic messages might refer too. 
+This shows us the two commits we have made and shows the messages we wrote. It is important that we try to use meaningful commit messages when we make changes. This is especially important when we are working with other people who might not be able to guess as easily what our short cryptic messages might refer too. 
 
 We might get a lit bit lonely working away on our own and want to work with other people. Before we get to that, it is worth learning one more command. **git pull**
 
