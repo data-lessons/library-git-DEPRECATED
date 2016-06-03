@@ -1,12 +1,12 @@
 ---
-title: Library Carpentry Week Three Versioning Data with Git
+title: Library Carpentry Module Three : Versioning Data with Git
 ---
 
 Schedule:
 
-* 17:45-18:25 Git and Github 
-* 18:30-19:25 Github pages and Markdown
-* 19:30-20:25 Practice and/or discussion 
+* Git and Github (45 mins)
+* Github pages and Markdown (45 mins)
+* Practice and/or discussion (45 mins)
 
 ---
 
@@ -54,6 +54,8 @@ ______
 
 **`git push`**: commits the staged snapshot to the project history.
 
+**`git log`**: history of commits in reverse chronological order.
+
 **`git diff`**: shows changes made to files
 
 **`git pull`**: Merges upstream changes into your local repository 
@@ -62,8 +64,8 @@ ______
 
 ---
 
-### Exercise our first git repository
-We will try and do this session as a group but if prefer to go at a slower pace please follow the instructions on the week three library carpentry github page.  
+### Exercise for our first git repository
+We will try to do this session as a group but if prefer to go at a slower pace please follow the instructions on the week three library carpentry github page.  
 
 ### Exercise - visualising git
 
