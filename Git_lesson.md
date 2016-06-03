@@ -69,6 +69,18 @@ $ cd git_test
 $ git init
 ~~~
 
+This initiates `git_test` as a git repository.
+
+We now need to configure Git locally - this is a one-time set up, but settings can be changed at any time.
+~~~
+$ git config --global user.name "Mary Citizen"
+$ git config --global user.email "mary_citizen@gitmail.com"
+$ git config --global color.ui "auto"
+$ git config --global core.editor "nano -w"
+~~~
+
+Now we have set things up, and configured it locally, we can see how we are going.
+
 **Git status**
 we can use `git status` at any time to let us know what git is up to. 
 
