@@ -65,11 +65,11 @@ ______
 ---
 
 ### Exercise for our first git repository
-We will try to do this session as a group but if prefer to go at a slower pace please follow the instructions on the week three library carpentry github page.  
+We will try to do this session as a group, but those who prefer to go at a slower pace can follow the instructions on the [github page](https://github.com/data-lessons/library-git).  
 
 ### Exercise - visualising git
 
-In groups work spend some time trying to illustrate some of the commands we've used with Git:
+In group work, spend some time trying to illustrate some of the commands we've used with Git:
 
 * try to express git commands in a non 'git' way
 * try to visualise what commits are doing to your repository 
