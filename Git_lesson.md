@@ -42,7 +42,7 @@ This method came about to help software developers work collaboratively on codin
 
 When we make 'commits', we record a range of metadata about that change. As librarians, we might already be inclined to think creating metadata is useful but an example of what information is recorded will illustrate why the information recorded by version control systems in particular is useful. 'Commits' record the time and date a commit was made. Although we can often see information about when we last edited or saved say, a Word document, this only shows us the most recent changes. When we make commits, we can record a message explaining what changes we have made. This makes it especially useful for collaborating. Rather than sending an email with a document with track changes and some comments, we can include all that information with the document itself. This makes it easy to get an overview of changes that have been made to a document by looking at a log of all the changes that have been made. 
 
-### Git vs. GitHub vs. Gitlab
+### Git vs. GitHub
 
 We often hear the terms Git and GitHub used interchangeably but they are slightly different things. Git refers to the software and principles used for a particular flavour of version control system, also called VCS in short (there are other systems such as Mercurial and SVN). GitHub is a popular site which hosts Git repositories. The majority of the content that GitHub hosts is open source software, though increasingly it is being used for other projects such as open access journals and constantly updated text books. GitHub is a great place to learn how to use Git but once you have learned the ideas and processes behind GitHub you can use Git on other storage systems. You can even host repositories on your own server if you want to keep your files private or if you wanted to encrypt your repository. You can get private repositories on GitHub for a fee. Gitlab is an open source Git repository management and hosting software. You can host it on your own server and configure with unlimited private repositories.
 
@@ -79,12 +79,12 @@ $ git config --global color.ui "auto"
 $ git config --global core.editor "nano -w"
 ~~~
 
-Now we have set things up, and configured it locally, we can see how we are going.
+Now we have set the directory up as a repository, and configured it locally, we can see how we are going.
 
 **Git status**
-we can use `git status` at any time to let us know what git is up to. 
+we can use `git status` at any time to let us know what Git is up to. 
 
-if we try it now we should get something like this
+If we try it now, we should get something like this
 ~~~
 $ On branch master
 $ Initial commit
@@ -113,7 +113,7 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 ~~~
 
-This status is Git telling us that it has noticed a new file in our directory that we currently aren't tracking. 
+This status is Git telling us that it has noticed a new file in our directory that we currently aren't tracking. With colourised output, the filename will appear in red.
 
 To change this, and to tell Git we want to track any changes we make to git_test.txt, we use `git add`
 
@@ -135,14 +135,14 @@ Changes to be committed:
     new file:   git_test.txt
 ~~~
 
-We can see that the file has changed colour (generally from red to green) and Git also tells us that it has got a new file. 
+If we opted for colourised output, we can see that the file has changed colour (from red to green) and Git also tells us that it has got a new file. 
 
 Let's make some changes to this file before we commit it:
-If you are on Linux or Mac use nano.
+
 ~~~
 $ nano git_test.txt
 ~~~
-On Windows open the file in Notepad++.
+Open the file in nano or another text editor.
 
 We should now be able to add some text to our text file. For now let's just write 'hello world'. If we try `git status` again. We should get the following message
 
