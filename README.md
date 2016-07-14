@@ -1,3 +1,5 @@
+**NOTE: the master branch is now depreciated. The [gh-pages branch](https://github.com/data-lessons/library-git/tree/gh-pages) is the default branch for this repo**
+
 ## Library Carpetry. Git
 
 These materials are based on Library Carpentry Week 3 by James Baker.  
