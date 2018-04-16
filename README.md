@@ -1,3 +1,7 @@
+This repo has now been migrated to the Library Carpentry organisation.
+
+Find it there: https://github.com/LibraryCarpentry/lc-git
+
 # Library Carpentry
 
 The Library Carpentry module '[Git Intro for Librarians](http://data-lessons.github.io/library-git/)' is maintained by [Belinda Weaver](https://github.com/weaverbel) and [Jez Cope](https://github.com/jezcope).
